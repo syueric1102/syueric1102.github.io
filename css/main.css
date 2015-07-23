@@ -1,5 +1,4 @@
 body {
-    background-image: url(img src="https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/11754844_10205897260262113_7705724979776434609_o.jpg");
     background-color: #CCCCCC;
     margin: 60px auto;
     width: 70%;
@@ -31,7 +30,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #CCCCC;
     font-size: .8em;
 }
 
