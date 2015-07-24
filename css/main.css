@@ -44,8 +44,6 @@ ul.posts li {
 }
 
 #cf2 img {
-  position:absolute;
-  left:0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -53,10 +51,10 @@ ul.posts li {
 }
 
 #cf2 img.transparent {
-opacity:0;
-}
-#cf_onclick {
-cursor:pointer;
+    opacity:0;
+    }
+    #cf_onclick {
+    cursor:pointer;
 }
 
 
