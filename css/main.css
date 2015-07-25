@@ -18,6 +18,7 @@ a {
     color: #999;
 }
 a:hover {
+    color: #6b6b6b;
     text-decoration: underline;
 }
 h1 {
