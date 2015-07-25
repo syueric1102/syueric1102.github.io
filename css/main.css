@@ -88,13 +88,6 @@ ul.posts li {
         animation-delay: 2.2s;
     }
 
-    .fade-in.five {
-        -webkit-animation-delay: 2.7s;
-        -moz-animation-delay: 2.7s;
-        animation-delay: 2.7s;
-    }
-
-
     /*---make a basic box ---*/
     .box{
         width: 629px;
