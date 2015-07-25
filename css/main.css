@@ -1,5 +1,5 @@
 body {
-    background-color: #CCCCCC;
+    background-color: #CDCDCD;
     margin: 60px auto;
     width: 70%;
 }
@@ -30,7 +30,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #CCCCCC;
+    border-top: 1px solid #CDCDCD;
     font-size: .8em;
 }
 
