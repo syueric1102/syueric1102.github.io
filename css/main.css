@@ -1,4 +1,5 @@
 body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     background-color: #CDCDCD;
     margin: 60px auto;
     width: 70%;
@@ -9,18 +10,23 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 50px;
 }
+
+footer ul li{
+    display: inline;
+    padding: 10px 20px;
+}
+
 a {
     text-decoration: none;
     color: #999;
 }
-a:hover {
-    color: #7a7a7a;
-    text-decoration: underline;
-}
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -44,10 +50,12 @@ ul.posts li {
     list-style: none;
 }
 
+
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
 
 .fade-in {
     opacity:0;  /* make things invisible upon start */
