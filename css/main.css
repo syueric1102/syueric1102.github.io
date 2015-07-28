@@ -14,10 +14,12 @@ nav ul, footer ul {
 
 nav ul li{
     display: inline-block;
-    padding: 10px 42px;
+    padding: 10px 40px;
 }
 
 footer ul li{
+    position: relative;
+    top: 40px;
     display: inline;
     padding: 10px 20px;
 }
@@ -32,6 +34,8 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
+    position:relative;
+    top:40px;
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
