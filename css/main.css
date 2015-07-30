@@ -40,8 +40,16 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
+.description { 
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    position:relative;
+    display:inline;
+    font-size: 1em;
+    color:#616161;
+}
+
 footer {
-    border-top: 1px solid #CDCDCD;
     font-size: .8em;
 }
 
