@@ -19,9 +19,9 @@ nav ul li{
 
 footer ul li{
     position: relative;
-    top: 40px;
+    top: 50px;
     display: inline;
-    padding: 10px 20px;
+    padding: 10px 0px;
 }
 
 a {
