@@ -47,6 +47,8 @@ p {
     display:inline;
     font-size: 1em;
     color:#545454;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 footer {
