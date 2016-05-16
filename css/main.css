@@ -2,13 +2,15 @@ body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     background-color: #CDCDCD;
     margin: 60px auto;
-    width: 70%;
+    width: 100%;
+    height: 100%;    
 }
 nav ul, footer ul {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
+
 }
 
 
@@ -126,7 +128,7 @@ ul.posts li {
         position:absolute;
         left:0;
         right:0;
-        top:470px;
+        top:76%;
         margin-left:auto;
         margin-right:auto;
     }
@@ -136,9 +138,11 @@ ul.posts li {
         position:absolute;
         left:0;
         right:0;
-        top:520px;
+        top:84%;
         margin-left:auto;
         margin-right:auto;
+        width:100%;
+        min-width: 500px;
     }
 
 }
