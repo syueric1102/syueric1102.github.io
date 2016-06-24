@@ -26,7 +26,15 @@ nav a:focus {
 	outline: none;
 }
 
-/* Effect 21: borders slight translate */
+.cl-effect-21{
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+}
+
+.cl-effect-21 ul{
+	position: relative;
+}
+
 .cl-effect-21 a {
 	padding: 10px;
 	color: #545454;
