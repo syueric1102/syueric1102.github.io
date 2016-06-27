@@ -5,6 +5,7 @@ body {
     width: 100%;
     height: 100%;    
 } 
+
 nav ul, footer ul {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     padding: 0px;
@@ -16,7 +17,11 @@ nav ul, footer ul {
 
 nav ul li{
     display: inline-block;
-    padding: 10px 40px;
+    padding: 1% 3%;
+}
+
+footer {
+    font-size: .8em;
 }
 
 footer ul li{
@@ -25,47 +30,6 @@ footer ul li{
     display: inline;
     padding: 10px 0px;
 }
-
-a {
-    text-decoration: none;
-    color: #999;
-}
-
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    position:relative;
-    top:40px;
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-
-.description { 
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    position:relative;
-    display:inline;
-    font-size: 1em;
-    color:#545454;
-    -webkit-transform-style: preserve-3d;
-    -webkit-transform: translate3d(0,0,0);
-}
-
-footer {
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
 
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -88,65 +52,66 @@ ul.posts li {
     animation-duration:1s;
 }
 
-    .fade-in.one {
-        -webkit-animation-delay: 0.7s;
-        -moz-animation-delay: 0.7s;
-        animation-delay: 0.7s;
-    }
+.fade-in.one {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
 
-    .fade-in.two {
-        -webkit-animation-delay: 1.2s;
-        -moz-animation-delay:1.2s;
-        animation-delay: 1.2s;
-    }
+.fade-in.two {
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay:1.2s;
+    animation-delay: 1.2s;
+}
 
-    .fade-in.three {
-        -webkit-animation-delay: 1.7s;
-        -moz-animation-delay: 1.7s;
-        animation-delay: 1.7s;
-    }
+.fade-in.three {
+    -webkit-animation-delay: 1.7s;
+    -moz-animation-delay: 1.7s;
+    animation-delay: 1.7s;
+}
 
-    .fade-in.four {
-        -webkit-animation-delay: 2.2s;
-        -moz-animation-delay: 2.2s;
-        animation-delay: 2.2s;
-    }
+.fade-in.four {
+    -webkit-animation-delay: 2.2s;
+    -moz-animation-delay: 2.2s;
+    animation-delay: 2.2s;
+}
 
-    /*---make a basic box ---*/
-    .box{
-        width: 629px;
-        height: 407px;
-        position:absolute;
-        left:0;
-        right:0;
-        margin-left:auto;
-        margin-right:auto;
-    }
+.box{
+    width: 629px;
+    height: 407px;
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
 
-    .container{
-        -webkit-font-smoothing: antialiased;
-        position:absolute;
-        left:0;
-        right:0;
-        top:76%;
-        margin-left:auto;
-        margin-right:auto;
-    }
+.container{
+    -webkit-font-smoothing: antialiased;
+    position:absolute;
+    left:0;
+    right:0;
+    top:76%;
+    margin-left:auto;
+    margin-right:auto;
+}
 
-    .blurb{
-        color: #ff0044;
-    }
+.container p{
+    font-size: 1.35em;
+    color: #545454;
+    position:relative;
+    top:40px;
+    line-height: 1.4em;
+}
 
-    footer{
-        -webkit-font-smoothing: antialiased;
-        position:absolute;
-        left:0;
-        right:0;
-        top:84%;
-        margin-left:auto;
-        margin-right:auto;
-        width:100%;
-        min-width: 500px;
-    }
-
+footer{
+    -webkit-font-smoothing: antialiased;
+    position:absolute;
+    left:0;
+    right:0;
+    top:84%;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    min-width: 500px;
 }
