@@ -6,7 +6,7 @@ body {
     height: 100%;    
 } 
 
-nav ul, footer ul {
+nav ul {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     padding: 0px;
     list-style: none;
@@ -77,8 +77,10 @@ footer ul li{
 }
 
 .box{
-    width: 629px;
-    height: 407px;
+    height: auto;
+    width: auto;
+    max-width: 629px;
+    max-height: 407px;
     position:absolute;
     left:0;
     right:0;
@@ -97,7 +99,8 @@ footer ul li{
 }
 
 .container p{
-    font-size: 1.35em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.3em;
     color: #545454;
     position:relative;
     top:40px;
