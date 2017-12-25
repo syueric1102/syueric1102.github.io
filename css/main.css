@@ -22,6 +22,7 @@ h1 {
 
 h2 {
   border-left: 10px hidden;
+  /*border-color: #F5F5F5;*/
   padding-left: 10px;
 
   margin-top: 0.25em;
@@ -32,6 +33,7 @@ h2 {
   -moz-transition:.5s;
   -webkit-transition:.5s;
   transition:.5s;
+  
 }
 
 h2:hover {
