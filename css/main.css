@@ -15,7 +15,15 @@ body {
   margin-top: 10em;
 } 
 
+h1 {
+  margin-bottom: 0.5em;
+  margin-left: 10px;
+}
+
 h2 {
+  border-left: 10px hidden;
+  padding-left: 10px;
+
   margin-top: 0.25em;
   margin-bottom: 0.25em;
 
@@ -27,5 +35,6 @@ h2 {
 }
 
 h2:hover {
+  border-left: 10px solid;
   color: red;
 }
