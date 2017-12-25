@@ -14,3 +14,18 @@ body {
 #mainrow{
   margin-top: 10em;
 } 
+
+h2 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+h2:hover {
+  color: red;
+}
