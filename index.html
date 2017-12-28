@@ -6,81 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
   <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="jquery.typist/src/jquery.typist.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css ">
   <link rel="stylesheet" type="text/css" href="css/main.css ">
   <script src="js/bootstrap.min.js"></script>
-  <script type="text/javascript">
-  var scroll = $(window).height();
-
-    $(document).ready(function($) {
-      $('.menudiv1')
-        .click(function(){  //use # for id and . for class
-          $('#about').slideToggle();     // with parameters slow,fast, or a time in milisecond
-          $('html, body').animate({scrollTop: '+=190'}, 500);
-        }); 
-      $('.menudiv2')
-        .click(function(){  //use # for id and . for class
-          $('#projects').slideToggle();     // with parameters slow,fast, or a time in milisecond
-          $('html, body').animate({scrollTop: '+=190'}, 500);
-        }); 
-      $('.menudiv3')
-        .click(function(){  //use # for id and . for class
-          $('#resume').slideToggle();     // with parameters slow,fast, or a time in milisecond
-        }); 
-      $('.menudiv4')
-        .click(function(){  //use # for id and . for class
-          $('#contact').slideToggle();     // with parameters slow,fast, or a time in milisecond
-        }); 
-
-	  $('.menutype1')
-	    .typistPause(1, function(){
-	      $('.menutype1')
-	      .typistStop()
-	      .typist({
-    	    speed: 50,
-		    text: 'ABOUT | 關於 | ÜBER MICH | 私について',
-		    cursor: false
-	      })
-	    });
-	  $('.menutype2')
-	    .typistPause(700, function(){
-	      $('.menutype2')
-	      .typistStop()
-	      .typist({
-    	    speed: 50,
-		    text: 'PROJECTS | 工程 | PROJEKTE | プロジェクト',
-		    cursor: false
-	      })
-	    });
-	  $('.menutype3')
-	    .typistPause(1500, function(){
-	      $('.menutype3')
-	      .typistStop()
-	      .typist({
-    	    speed: 50,
-		    text: 'RÈSUMÈ | 履歴書 | CV | リレキショ',
-		    cursor: false
-	      })
-	    });
-	  $('.menutype4')
-	    .typistPause(2200, function(){
-	      $('.menutype4')
-	      .typistStop()
-	      .typist({
-    	    speed: 50,
-		    text: 'CONTACT | 聯絡 | KONTAKT | セショク',
-		    cursor: true
-	      })
-	    });
-	});
-  </script>
+  <script src="jquery/animations.js"></script>
 </head>
 <body>
 
 <div class="container-fluid">
   <div class="row" id="mainrow">
-  	  <div class="col-md-1"></div>
+  	<div class="col-md-1"></div>
       <div class="col-md-10">
       	<h1 class="name">ERIC SYU</h1>
         <div class="menudiv1">
@@ -93,7 +28,13 @@
               <div class="col-md-5" id="description">
                 Hello! I'm Eric, a senior pursuing a degree in Mathematics/Computer Science at University of California at San Diego.  I'm a software engineer, electronics tinkerer, badminton enthusiast, and food lover.
                 <br></br>
-				I combine my skills and passion in computer science, engineering, and design to build great things ranging from websites to mobile applications to robots.
+				        I combine my skills and passion in computer science, engineering, and design to build great things ranging from websites to mobile applications to robots.
+                <br></br>
+                Find me on<a href="https://www.facebook.com/eric.syu.14" target="_blank"><img src="svg/facebook.svg"/></a>and<a href="https://www.linkedin.com/in/eric-syu-848b91a1" target="_blank"><img src="svg/linkedin.svg"/></a>
+                <br></br>
+                Shoot me an<a href="mailto:syueric1102@gmail.com" target="_blank"><img src="svg/mail.svg"/></a>
+                <br></br>
+                Check out my<a href="https://github.com/syueric1102" target="_blank"><img src="svg/github.svg"/></a>
               </div>
             </div>
           </div>
@@ -102,36 +43,46 @@
           <h2 class="menutype2"></h2>
           <div id="projects">
           	<div class="col-md-10" id="projectdetails">
-				<strong>3D Printing</strong><br>
-				In a 3 month long project, I built a <a href="http://syuslab.blogspot.com/2016/10/homemade-3d-printer.html" target="_blank"><font color="#ff6600">3D Printer</font></a> from scratch, sourcing my own parts to minimize costs while preserving quality.<br>
+      				<strong>3D Printing</strong><br>
+      				In a 3 month long project, I built a <a href="http://syuslab.blogspot.com/2016/10/homemade-3d-printer.html" target="_blank"><font color="#ff6600">3D Printer</font></a> from scratch, sourcing my own parts to minimize costs while preserving quality.<br>
 
-				<br><strong>ZingSort</strong><br>
-				Created a nifty Javascript based <a href="http://syueric1102.github.io/ZingSort/" target="_blank"><font color="#ff6600">app</font></a> powered by ZingCharts to compare popular array sorting algorithm runtimes.<br>
+      				<br><strong>ZingSort</strong><br>
+      				Created a nifty Javascript based <a href="http://syueric1102.github.io/ZingSort/" target="_blank"><font color="#ff6600">app</font></a> powered by ZingCharts to compare popular array sorting algorithm runtimes.<br>
 
-				<br><strong>Stratos</strong><br>
-				Built a physical weather visualizer <a href="https://devpost.com/software/stratos" target="_blank"><font color="#ff6600">Stratos</font></a> that simulates weather conditions with data from SimpleWeather.js<br>
+      				<br><strong>Stratos</strong><br>
+      				Built a physical weather visualizer <a href="https://devpost.com/software/stratos" target="_blank"><font color="#ff6600">Stratos</font></a> that simulates weather conditions with data from SimpleWeather.js<br>
 
-				<br><strong>Robotics</strong><br>
-				Check out my robotic projects in my personal <a href="http://syuslab.blogspot.com/" target="_blank"><font color="#ff6600">blog</font></a>, including a homemade 3D Printer, an Arduino powered beverage dispenser, a remote controlled tank, LED cube, and more.<br>
+      				<br><strong>Robotics</strong><br>
+      				Check out my robotic projects in my personal <a href="http://syuslab.blogspot.com/" target="_blank"><font color="#ff6600">blog</font></a>, including a homemade 3D Printer, an Arduino powered beverage dispenser, a remote controlled tank, LED cube, and more.<br>
 
-				<br><strong>UCSD CSE 100 Advanced Data Structures Projects</strong><br>
-				<a href="https://bitbucket.org/eric_syu/pa1_bst_in_c" target="_blank"><font color="#ff6600">BST (C++)</font></a><br>
-				<a href="https://bitbucket.org/eric_syu/pa2_huffman" target="_blank"><font color="#ff6600">Huffman Encoder/Decoder (C++)</font></a><br>
-				<a href="https://bitbucket.org/eric_syu/pa3_autocomplete" target="_blank"><font color="#ff6600">Autocomplete (C++)</font></a><br>
-				<a href="https://bitbucket.org/eric_syu/pa4_6_degrees" target="_blank"><font color="#ff6600">6 Degrees of Kevin Bacon (C++)</font></a><br>
+      				<br><strong>UCSD CSE 100 Advanced Data Structures Projects</strong><br>
+      				<a href="https://bitbucket.org/eric_syu/pa1_bst_in_c" target="_blank"><font color="#ff6600">BST (C++)</font></a><br>
+      				<a href="https://bitbucket.org/eric_syu/pa2_huffman" target="_blank"><font color="#ff6600">Huffman Encoder/Decoder (C++)</font></a><br>
+      				<a href="https://bitbucket.org/eric_syu/pa3_autocomplete" target="_blank"><font color="#ff6600">Autocomplete (C++)</font></a><br>
+      				<a href="https://bitbucket.org/eric_syu/pa4_6_degrees" target="_blank"><font color="#ff6600">6 Degrees of Kevin Bacon (C++)</font></a><br>
             </div>
           </div>
         </div>
         <div class="menudiv3">
           <h2 class="menutype3"></h2>
-          <div id="resume">coming soon</div>
+          <div id="resume">
+            <div class="col-md-10" id="resumedetails">
+              <a href="Resume Eric Syu 2017 Fall.pdf" target="_blank"><strong><font color="#ff6600">View</font></strong></a>
+            </div>
+          </div>
         </div>
         <div class="menudiv4">
           <h2 class="menutype4"></h2>
-          <div id="contact">coming soon</div>
+          <div id="contact">
+            <div class="col-md-10" id="contactdetails">
+            <p><strong>Email:</strong> <a href="mailto:syueric1102@gmail.com" target="_blank"><font color="#ff6600">syueric1102@gmail.com</font></a></p>
+            <p><strong>Phone:</strong> 858 888 5259</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-md-1"></div>
+    </div>
   </div>
 </div>
  

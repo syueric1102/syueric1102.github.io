@@ -17,7 +17,6 @@ body {
 
 #about{
   display: none;
-  margin-left: 2%;
 }
 
 #description{
@@ -28,7 +27,7 @@ body {
 
 #projects{
   display: none;
-  margin-left: 20px;
+  margin-left: 2%;
 }
 
 #projectdetails{
@@ -39,12 +38,24 @@ body {
 
 #resume{
   display: none;
-  margin-left: 20px;
+  margin-left: 2%;
+}
+
+#resumedetails{
+  font-size: 16px;
+  font-family: Helvetica;
+  font-weight: 100;
 }
 
 #contact{
   display: none;
-  margin-left: 20px;
+  margin-left: 2%;
+}
+
+#contactdetails{
+  font-size: 16px;
+  font-family: Helvetica;
+  font-weight: 100;
 }
 
 h1 {
@@ -72,4 +83,5 @@ h2:hover {
   border-left: 10px solid;
   color: red;
 }
+
 
