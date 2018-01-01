@@ -9,26 +9,26 @@ $(document).ready(function($) {
         }); 
       $('.menudiv2')
         .click(function(){  //use # for id and . for class
-          $('#about').slideUp();
           $('#projects').slideToggle();
+          $('#about').slideUp();
           $('#resume').slideUp();
           $('#contact').slideUp();
           $('html, body').animate({scrollTop: $('.menudiv2').offset().top}, 500);
         }); 
       $('.menudiv3')
         .click(function(){  //use # for id and . for class
+          $('#resume').slideToggle();
           $('#about').slideUp();
-          $('#projects').slideUp();
-           $('#resume').slideToggle();       
+          $('#projects').slideUp();       
           $('#contact').slideUp();
           $('html, body').animate({scrollTop: $('.menudiv3').offset().top}, 500);
         }); 
       $('.menudiv4')
         .click(function(){  //use # for id and . for class
+          $('#contact').slideToggle();
           $('#about').slideUp();
           $('#projects').slideUp();
-           $('#resume').slideUp();        
-          $('#contact').slideToggle();
+          $('#resume').slideUp();        
           $('html, body').animate({scrollTop: $('.menudiv4').offset().top}, 500);
         }); 
 
