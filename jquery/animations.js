@@ -38,7 +38,7 @@ $(document).ready(function($) {
 	      .typistStop()
 	      .typist({
     	    speed: 50,
-		    text: 'ABOUT | 關於 | ÜBER MICH | 私について',
+		    text: 'ABOUT' + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + '關於' + '\xa0\xa0\xa0\xa0\xa0\xa0' + 'ÜBER MICH' + '\xa0\xa0' + '私について',
 		    cursor: false
 	      })
 	    });
@@ -48,7 +48,7 @@ $(document).ready(function($) {
 	      .typistStop()
 	      .typist({
     	    speed: 50,
-		    text: 'PROJECTS | 工程 | PROJEKTE | プロジェクト',
+		    text: 'PROJECTS' + '\xa0\xa0' + '工程' + '\xa0\xa0\xa0\xa0\xa0\xa0' + 'PROJEKTE' + '\xa0\xa0\xa0' + 'プロジェクト',
 		    cursor: false
 	      })
 	    });
@@ -58,7 +58,7 @@ $(document).ready(function($) {
 	      .typistStop()
 	      .typist({
     	    speed: 50,
-		    text: 'RÈSUMÈ | 履歴書 | CV | リレキショ',
+		    text: 'RÈSUMÈ' + '\xa0\xa0\xa0\xa0\xa0\xa0' + '履歴書' + '\xa0\xa0' + 'CV' + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + 'リレキショ',
 		    cursor: false
 	      })
 	    });
@@ -68,7 +68,7 @@ $(document).ready(function($) {
 	      .typistStop()
 	      .typist({
     	    speed: 50,
-		    text: 'CONTACT | 聯絡 | KONTAKT | セショク',
+		    text: 'CONTACT' + '\xa0\xa0\xa0\xa0' + '聯絡' + '\xa0\xa0\xa0\xa0\xa0\xa0' + 'KONTAKT' + '\xa0\xa0\xa0\xa0\xa0' + 'セショク',
 		    cursor: true
 	      })
 	    });
